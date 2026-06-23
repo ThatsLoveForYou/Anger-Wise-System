@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <title>The Anger-Wise Transformation System</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    
+    <!-- Google Fonts: Keep in HTML head -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CDN: Keep in HTML head -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Link your separated CSS file -->
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <!-- Keep all JavaScript logic inline at the bottom -->
+    <script>
+      // Your existing JS logic goes here
+      // Note: You had <script type="module" src="/src/main.tsx"> 
+      // Since you want JS inline, you'd paste that TSX/JS code here after compiling
+      // For now here's a placeholder:
+      
+      console.log('Anger-Wise Transformation System loaded');
+      
+      // Example: Init your React app if you're not using Vite/build step
+      // const root = document.getElementById('root');
+      // ...your app logic...
+      
+      // Venting mode example
+      function activateVentingMode() {
+        const textarea = document.querySelector('textarea');
+        if (textarea) {
+          textarea.classList.add('vent-textarea');
+        }
+      }
+    </script>
+  </body>
+</html>
